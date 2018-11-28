@@ -1,16 +1,6 @@
 <template>
     <div class="login theme-hover-invert" @click="insertPassword">
         {{login.title}}
-        <div class="options">
-            <i class="fa fa-user"
-               @click="copyUser"
-               @mouseover="switchIcon($event, 'user')"
-               @mouseout="switchIcon($event, 'user')"></i>
-            <i class="fa fa-key"
-               @click="copyPassword"
-               @mouseover="switchIcon($event, 'key')"
-               @mouseout="switchIcon($event, 'key')"></i>
-        </div>
     </div>
 </template>
 
